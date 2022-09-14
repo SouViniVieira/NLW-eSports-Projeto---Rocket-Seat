@@ -1,0 +1,10 @@
+@import url(../css/landing.css);
+
+:root {
+    --shapes-dark: #121214;
+}
+
+body {
+    background: url(../img/Fundo.svg) no-repeat;
+    background-size: cover;
+}
