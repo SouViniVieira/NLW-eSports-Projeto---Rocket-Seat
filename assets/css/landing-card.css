@@ -1,0 +1,14 @@
+.landing__card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: var(--haiti);
+    padding: 32px;
+    padding-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

@@ -1,10 +1,42 @@
-@import url(../css/landing.css);
 
 :root {
     --shapes-dark: #121214;
+    --pure-white: #FFFFFF;
+    --gray: #A1A1AA;
+    --haiti: #2A2634;
+    --card-gradient: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background: url(../img/Fundo.svg) no-repeat;
-    background-size: cover;
+    background: url(../img/Fundo.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: var(--shapes-dark);
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: auto;
+
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900px;
+    color: var(--pure-white);
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray);
+    margin: 0.5rem 0 2rem 0;
 }

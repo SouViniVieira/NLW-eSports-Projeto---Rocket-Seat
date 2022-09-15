@@ -9,22 +9,75 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/reset.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/landing.css">
+    <link rel="stylesheet" href="assets/css/landing-card.css">
+    <link rel="stylesheet" href="assets/css/foto/landing-perfil.css">
+    <link rel="stylesheet" href="assets/css/foto/landing-foto.css">
+    <link rel="stylesheet" href="/assets/css/conteudo/landing-image.css">
+    <link rel="stylesheet" href="/assets/css/landing-border.css">
 </head>
+
 <body>
-    <div class="landing">
+    <main>
         <div class="landing__perfil">
             <img src="/assets/img/Avatar.svg" alt="Imagem do Perfil" class="landing__foto">
         </div>
-        <div class="landing__meusJogos">
-
-        </div>
-        <div class="landing__canais">
-
-        </div>
-        <div class="landing__redesSociais">
-
-        </div>
-    </div>
+        <section class="landing__border">
+            <div class="landing__card">
+                <h2 class="landing__titulo">Meus Jogos</h2>
+                <h3 class="landing__descricao">Os games que eu mais curto jogar!</h3>
+                <div class="landing__image">
+                    <a href="https://store.playstation.com/pt-br/product/UP9000-CUSA00900_00-BLOODBORNE000000" class="landing__imagem--game bloodborne" target="_blank">
+                        <img src="/assets/img/Bloodborne.svg" alt="Capa do Game Bloodborne">
+                    </a>
+                    <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" class="landing__imagem--game eldenRing" target="_blank">
+                        <img src="/assets/img/EldenRing.svg" alt="Capa do Game Elden Ring">
+                    </a>
+                    <a href="https://store.steampowered.com/app/782330/DOOM_Eternal/" class="landing__imagem--game doomEternal" target="_blank">
+                        <img src="/assets/img/DoomEternal.svg" alt="Capa do Game Doom Eternal">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="landing__border">
+            <div class="landing__card">
+                <h2 class="landing__titulo">Canais e Streamers</h2>
+                <h3 class="landing__descricao">Lista de Canais e transmissões que não perco!</h3>
+                <div class="landing__image">
+                    <a href="https://www.twitch.tv/alanzoka" class="landing__imagem--game alanzoka" target="_blank">
+                        <img src="/assets/img/alan.svg" alt="Logo do Alanzoka">
+                    </a>
+                    <a href="https://www.twitch.tv/fextralife" class="landing__imagem--game fextralife" target="_blank">
+                        <img src="/assets/img/fextra.svg" alt="Logo do Fextralife">
+                    </a>
+                    <a href="https://www.twitch.tv/lobosjr" class="landing__imagem--game lobosjr" target="_blank">
+                        <img src="/assets/img/lobos.svg" alt="Logo do LobosJr">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="landing__border">
+            <div class="landing__card">
+                <h2 class="landing__titulo">Minhas Redes</h2>
+                <h3 class="landing__descricao">Se conecte comigo agora mesmo!</h3>
+                <div class="landing__image">
+                    <a href="https://www.twitch.tv/thevinivieira" class="landing__imagem--game twitch" target="_blank">
+                        <img src="/assets/img/TwitchLogo.svg" alt="Logo da Twitch">
+                    </a>
+                    <a href="https://twitter.com/souvinivieira" class="landing__imagem--game twitter" target="_blank">
+                        <img src="/assets/img/TwitterLogo.svg" alt="Logo do Twitter">
+                    </a>
+                    <a href="https://www.instagram.com/souvinivieira/" class="landing__imagem--game lobosjr" target="_blank">
+                        <img src="/assets/img/InstagramLogo.svg" alt="Logo do Instagram">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
