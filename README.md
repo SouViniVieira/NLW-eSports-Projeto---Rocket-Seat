@@ -10,7 +10,7 @@ A idéia era construir um projeto para o evento NLW da Rocket Seat. A proposta d
 
 [Link do Evento](https://lp.rocketseat.com.br/nlw)
 
-## O que foi feito?
+## 🚀 O que foi feito?
 
 1 - Conteúdos adicionados no HTML.<br>
 2 - CSS adicionado.<br>
