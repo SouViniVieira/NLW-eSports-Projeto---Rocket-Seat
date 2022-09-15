@@ -6,6 +6,6 @@ A idéia era construir um projeto para o evento NLW da Rocket Seat. A proposta d
 
 # O que foi feito?
 
-1 - Conteúdos adicionados no HTML.
-2 - CSS adicionado.
+1 - Conteúdos adicionados no HTML.<br>
+2 - CSS adicionado.<br>
 3 - Animações e Interações Adiconadas.
