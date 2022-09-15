@@ -8,4 +8,4 @@ A idéia era construir um projeto para o evento NLW da Rocket Seat. A proposta d
 
 1 - Conteúdos adicionados no HTML.<br>
 2 - CSS adicionado.<br>
-3 - Animações e Interações Adiconadas.
+3 - Animações e Interações Adicionadas.
